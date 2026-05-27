@@ -1,21 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --bg: #f6f1e9;
-  --panel: #fffaf2;
-  --panel-2: #f1e7da;
-  --text: #221a12;
-  --muted: #6f6254;
-  --accent: #b7864b;
-  --accent-dark: #8d6234;
-  --border: #e7dac9;
-}
-
-body { @apply antialiased; background: var(--bg); color: var(--text); }
+body { @apply bg-charcoal text-stone; }
 .luxury-container { @apply mx-auto max-w-7xl px-4 md:px-8; }
-.card { background: var(--panel); border: 1px solid var(--border); @apply rounded-2xl; }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: var(--accent-dark); }
-.hero-overlay { background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.35) 45%, rgba(0,0,0,.1) 100%); }
