@@ -1,0 +1,1 @@
+export default function Page(){return <div className='luxury-container py-16'><h1 className='text-4xl mb-6 capitalize'>contact</h1><p className='text-stone/70'>Premium contact page with responsive editorial layout.</p></div>;}
