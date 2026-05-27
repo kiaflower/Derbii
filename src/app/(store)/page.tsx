@@ -1,0 +1,2 @@
+const sections=[{title:'Timeless Leather Craft',subtitle:'Premium leather accessories crafted in Senegal.'},{title:'Featured Products',subtitle:'Curated pieces for modern elegance.'}];
+export default function HomePage(){return <div className='luxury-container py-16 space-y-24'>{sections.map((s,i)=><section key={i} className='space-y-4'><h1 className='text-5xl md:text-7xl font-light'>{s.title}</h1><p className='text-stone/70 max-w-2xl'>{s.subtitle}</p><div className='h-80 bg-gradient-to-b from-gold/30 to-charcoal rounded-lg'/></section>)}</div>;}

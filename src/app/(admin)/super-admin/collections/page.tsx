@@ -1,0 +1,1 @@
+export default function Page(){return <div className='luxury-container py-12'><h1 className='text-3xl capitalize'>collections</h1><p className='text-stone/70 mt-2'>Manage collections with CRUD, filters, and dynamic content controls.</p></div>;}
