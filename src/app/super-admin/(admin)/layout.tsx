@@ -19,7 +19,7 @@ redirect('/super-admin/connexion')
 }
 
 return (
-<div className="flex h-screen bg-stone-50 overflow-hidden” style={{ fontFamily: 'Jost, sans-serif' }}>
+<div className="flex h-screen bg-stone-50 overflow-hidden" style={{ fontFamily: 'Jost, sans-serif' }}>
 <AdminSidebar />
 <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
 <AdminHeader user={user!} />

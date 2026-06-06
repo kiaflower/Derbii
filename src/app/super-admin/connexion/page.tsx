@@ -64,10 +64,10 @@ return (
 }
 
 return (
-<div className="min-h-screen bg-stone-900 flex items-center justify-center px-6” style={{ fontFamily: 'Jost, sans-serif' }}>
+<div className="min-h-screen bg-stone-900 flex items-center justify-center px-6" style={{ fontFamily: 'Jost, sans-serif' }}>
 <div className="w-full max-w-sm">
 <div className="text-center mb-12">
-<div className="text-3xl tracking-[0.25em] text-stone-100 mb-1” style={{ fontFamily: 'Cormorant Garamond, serif' }}>
+<div className="text-3xl tracking-[0.25em] text-stone-100 mb-1" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
 DERBII
 </div>
 <p className="text-xs tracking-[0.2em] uppercase text-stone-500">Administration</p>
